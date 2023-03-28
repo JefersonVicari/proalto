@@ -24,7 +24,43 @@ nav {
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px 60px;
         background-color: rgb(88, 148, 128);
-    }
+}
     a{
         padding: 10px 60px;
     }
+
+    div#q1{
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 20px;
+    }
+    div#q2{
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 20px; 
+    }
+
+    div#q3{
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 20px;
+    }
+    div#q4{
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 20px;
+    }
+    div#q5{
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-top: 20px;
+    }
+    footer{
+        background-image: linear-gradient(to right, black,white);
+        color: white;
+        max-width: 1000px;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
