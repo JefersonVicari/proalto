@@ -28,33 +28,6 @@ nav {
     a{
         padding: 10px 60px;
     }
-
-    div#q1{
-        border-radius: 10px;
-        border: 2px solid black;
-        margin-top: 20px;
-    }
-    div#q2{
-        border-radius: 10px;
-        border: 2px solid black;
-        margin-top: 20px; 
-    }
-
-    div#q3{
-        border-radius: 10px;
-        border: 2px solid black;
-        margin-top: 20px;
-    }
-    div#q4{
-        border-radius: 10px;
-        border: 2px solid black;
-        margin-top: 20px;
-    }
-    div#q5{
-        border-radius: 10px;
-        border: 2px solid black;
-        margin-top: 20px;
-    }
     footer{
         background-image: linear-gradient(to right, black,white);
         color: white;
