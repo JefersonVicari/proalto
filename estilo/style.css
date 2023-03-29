@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+body{
+    width: 1000px;
+    background-color: yellow;
+    margin: auto;
+}
 
 
 main{
@@ -17,6 +21,7 @@ main p{
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 h2{
     padding: 0px 10px;
@@ -28,12 +33,23 @@ li{
    
 nav {
         font-family: Arial, Helvetica, sans-serif;
-        padding: 10px 60px;
-        background-color: rgb(88, 148, 128);
+        padding: 10px 60px ;
+        background-color: rgb(2, 2, 2);
+        border-radius: 10px;
 }
-    a{
-        padding: 10px 80px;
+    nav > a{
+        padding: 8px 80px;
+        text-decoration:nome;
     }
+    nav a:hover{
+        background-color: yellow;
+        border-radius: 5px;
+        transition: 0.5s;
+        padding: 8px 80px;
+        
+    }
+
+
     footer{
         background-image: linear-gradient(to right, black,white);
         color: white;
