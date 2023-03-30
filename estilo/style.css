@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body{
-    width: 1000px;
-    background-color: yellow;
+    
     margin: auto;
 }
 
@@ -9,6 +8,7 @@ body{
 main{
 margin:auto;
 max-width: 1000px;
+background-color: yellow;
 }
 
 main h1{
