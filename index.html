@@ -5,146 +5,253 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pro Alto</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <style>
-    
-div#q1 {
-     
-    background-image: url(imagens/rapel1-2.jpg);
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 10px;
-    
-}
-div#q2{
-   background-image: linear-gradient(to right, White,yellow ); 
-    margin-top: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    
-   
-}
-div#q3{
-    background-color: yellow;
-    border-radius: 10px;
-    border: 2px solid black;
-    margin-top: 10px;
-    
-}
+    <Style>
+       
+       
+        body{
+            margin: 0px;
+            padding: 0px;
+            height: 3800px;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        section.normal{
+            background-color: yellow;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items:center;
+            
+           
+        }
+        div.box1{
+            width: 700px;
+            height: 500px;
+            background-color: white;
+           
+            
+        }
+        div.box2{
+            width: 700px;
+            height: 500px;
+            background-image: url(imagens/rapel2.jpg);
+            background-size: cover;
+            
+        }
+        
+        div>p{
+            padding: 20px;
+            text-align: justify;
+        }
+        div>h1{
+            padding: 20px;
+        }
+       
 
-    </style>
-    
+        section.normal2{
+            background-color: yellow;
+            text-align: center;
+            
+            padding: 10px;
+            
+        }
+       
+        section#img01{
+        background-image: url(imagens/rapel1-2.jpg);
+        background-size: cover;
+        }
+        section.imagem{
+            text-align: center;
+            background-attachment: fixed;
+            font-size: 40px;
+            
+        }   
+        section#img02{
+        background-image: url(imagens/rapel1-2.jpg);
+        background-size: cover;
+        } 
+        section#img03{
+        background-image: url(imagens/rapel1-2.jpg);
+        background-size: cover;
+        } 
+        section#img04{
+        background-image: url(imagens/rapel1-2.jpg);
+        background-size: cover;
+        }
+       
+        nav{
+            background-color: black;
+            overflow: hidden;
+            position: fixed;
+            width: 100vw;
+        }
+        div.logo{
+            float: left;
+            display: block;
+            padding: 14px 50px;
+        }
+        nav a{
+            color: white;
+            float: right;
+            display: block;
+            padding: 40px 30px;
+            padding-right: 100px;
+            font-size: large;
+            }
+            section.normal3{
+            background-color: yellow;
+            text-align: left;
+            padding: 10px;
+            }
+        section.normal3{
+            background-color: yellow;
+            text-align: center;
+            padding: 10px;
+            }
+        section.normalmidias{
+            text-align: center;
+        }
+        section.normalmidias img{
+            width: 100px;
+            padding: 20px;
+            border-radius: 50%;
+        }
+        
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+
+        }
+            
+    </Style>
 </head>
+
 <body>
+   
+<nav>
+
+    <div class="logo"><img src="imagens/logoantigopequeno2.png" alt=""></div>
+        <a href="#img04">Contato</a>
+        <a href="#img03">Parceiros</a>
+        <a href="#img02">Serviços</a>
+        <a href="#img01">Empresa</a>
+        
+    
+</nav>
 
     <main>
-        <img src="imagens/cabecalho7.png" alt="">
 
-        <nav>
-            <a href="">Home</a>
-            <a href="pagina2.html" target="_blank">Serviços</a>
-            <a href="pagina3.html">Fotos</a>
-            <a href="contato.html">Contatos</a>
-        </nav>
+        
+<section class="imagem" id="img01">
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <h1>MOVIDOS PELO COMPROMISSO DE<br>
+        CUIDAR DO SEU PATRIMÔNIO</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+
+
+
+    <section class="normal" >  
+            <div class="box1">
+                <h1 >Quem somos</h1>
+                <p>
+                    Pro Alto é uma empresa direcionada em solucionar problemas em lugares de acesso difíceis, facilitando o alcance em determinadas áreas que uma pessoa não qualificada conseguirá realizar. <br>
+                    Dispensamos o uso de ferramentas de grande porte que podem causar danos e acidentes irrevercíveis a um colaborador. <br>
+                    Todos nossos colaboradores tem a qualificação necessária para poder realizar este tipo de serviço, sendo eles, supervisionados e acompanhados por um técnico de nível superior. <br>
+                    Nosso material passa por cuidados específicos, constantes prolongando assim sua vida útil.
+                </p>
+            </div>
+
+            <div class="box2">
+              
+            </div>
+
+            
+    </section>
+   
+
+
+
+
+<section class="imagem" id="img02">
+    <br>
+    <br>
+    <br>
+    <br>
+<h1>Serviços que realizamos</h1>
+<br>
+<br>
+<br>
+<br>
+
+</section>
+
+<section class="normal2" id="nor01">
+<img src="Fotos/Foto1.png" alt="">
+<img src="Fotos/Foto2.png" alt="">
+<img src="Fotos/Foto3.png" alt="">
+<img src="Fotos/Foto4.png" alt="">
+
+<img src="Fotos/Foto6.png" alt="">
+<img src="Fotos/Foto7.png" alt="">
+
+</section>
+
+<section class="imagem" id="img03">
+    <br>
+    <br>
+<h1>Parceiros</h1>
+<br>
+<br>
+<br>
+<br>
+</section>
+
+<section class="normal3" id="nor02">
+    <div><img src="Fotos/Foto5.png" alt=""></div>
+    <a href="https://www.outdoorequipamentos.com.br/" target="_blank">
+        <div><img src="imagens/outdoor.png" alt=""></div>
+    </a>
     
-        <div id="q1">
-            <h1>Quem somos:</h1>
-            <p>
-            Proalto é uma empresa nova no mercado, atuamos com prestações de
-            serviços para condomínios Residenciais e de Edifícios , seu fundador Julio Ferreira tem uma
-            história e uma experiência muito grande em manutenção predial e residencial. Trazendo para
-            a empresa muita experiência, qualidade e conhecimento técnico.
-            Somos uma empresa que utiliza técnicas verticais, acesso por cordas, alpinismo industrial que
-            nos permite chegar em lugares de difícil acesso com muita segurança. Alpinistas certificados e
-            preparados para trabalhos em alturas. Com base e amparo sob lei e normas técnicas... NR35
-            Anexo1, direcionando técnicas e formas de trabalho em altura, com uso de EPIS conforme a
-            NR35, técnicas de segurança e ancoragens conforme a NR35, NBR11370, NBR 14626 e UIAA,
-            técnicas de içamento, sistemas de polias e redução mecânica.
-            NBR 15475 é a norma que qualifica o profissional de acesso por cordas, com aulas teóricas e
-            termos técnicos. Certificando o profissional com certificação nacional e toda America Latina.
-            NBR 15595 é a metodologia de como executar os termos técnicos de aprendizado, em aulas
-            praticas. Profissional de acesso por cordas passa por horas de treinamentos para garantir
-            conhecimento técnico.
-            Com base nestas duas Normas, o aluno passa por uma prova teórica e pratica. Com o
-            objetivo de demonstrar entendimento total dos conteúdos teóricos e práticos. A certificação
-            só é concedida sob avaliação de um supervisor N3 e avaliação da certificadora brasileira
-            ANEAC...
-            Muito mais seguro, rápido e ágil. Sem transtorno de andaimes, jaús, e estruturas pesadas
-            dentro do seu condomínio. Organização no ambiente de trabalho.
-            Alpinistas certificados e preparados para trabalho em altura.</p>
+    </section>
+    <section class="imagem" id="img04">
+        <br>
+        <br>
+    <h1>Mídias Sociais</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    </section>
+    <section class="normalmidias" >
+        <a href="https://www.facebook.com/proaltoalpinismo" target="_blank"><img src="imagens/logo-facebook.jpg" alt=""></a>
+        <a href="https://www.instagram.com/proaltoalpinismo/" target="_blank"><img src="imagens/logo-instagram.jpg" alt=""></a>
 
-            <h2>Colaboradores:</h2>
 
-            <li>Todos registrados em CLT.</li>
-            <li>Seguro de vida global para todos colaboradores.</li>
-            <li>Todos registrados no Esocial (SST) Sistema de Saúde do Trabalho.</li>
-            <li>Com cursos de qualificação e certificação.</li>
-            <li>
-                Equipe terrestre, qualificada e experiente em todas as etapas de manutenção predial e
-                residencial.
-            </li>
-            </p>
-        </div>
-    
-    
-    
-        <div id="q2">
-            <h1>Nossa Missão:</h1>
-            <p>
-            Buscar soluções que se adaptem a cada necessidade e dificuldade que
-            nossos clientes encontram, quando se fala em manutenção predial, Residencial e Empresas
-            que envolva altura e riscos eminentes. Executando com segurança e respeitando normas e
-            seus procedimentos, dentro do ambiente e seus riscos. Com técnica de alta qualidade na
-            prestação de serviços em altura. Buscando assim a total satisfação de nossos clientes.
-            </p>
-        </div>
-    
+    </section>
 
-    <div id="q3">
-        <h1>O que fazemos:</h1>
-        <p>
-        Somos especialistas em manutenção predial e residencial. Em todo
-        seguimento na área da construção civil, com base específica em reforma e recuperação de
-        fachadas de Edifícios, Empresas e como consequência atuamos em manutenção residencial e
-        suas diversidades em altura.
-        Procedimentos: Preparação e pinturas, e seus procedimentos técnicos. Restauração e
-        recuperação de alvenarias. Restauração e recuperação de cerâmicas,pastilhas, pedras etc.
-        Restauração e recuperação de materiais em madeiras. Testes de som cavo e percussão,
-        tratamos de toda patologia do edifício.
-        Texturas, todos os tipos. Impermeabilizações e reformas de telhados, Lages e de toda
-        estrutura que esteja com problemas de infiltração ou danificada. Lavagem de estruturas com
-        hidrojato de alta pressão.Limpeza de vidros. Etc.
-        Cuidamos de todas as partes de manutenção preventiva, e corretiva de Edifícios, Empresas e
-        residências com suas diversidades de altura.
-        </p>
-    </div>
 
-    <div id="q4">
-        <h1>Nossos Parceiros:</h1>
-        <p>
-        Engenheiro Civil: Alexei Susin CREA/RS 85.220 com muita experiência em manutenção predial.
-        Técnico de Edificações: Arlan Lopes Azeredo, Processo de Registro 4469815/2019 Alpinista
-        Nível 2 ANEAC N° 3810, especialista em testes: de percussão, testes de qualidade da estrutura
-        dos Edifícios. E toda suas patologias existentes na manutenção predial.
-        Técnico em Segurança do Trabalho: Richard da Silva Ludtke, MTE/RS 12505. Supervisor
-        Alpinista Nível 3 ANEAC N° 02130
-        </p>
-    </div> 
 
-    <div id="q5">
-    <h1>Profissional Responsável:</h1>
-    <p>
-         Julío Ferreira. Alpinista Nível 2 ANEAC N°03413. Especialista em
-        manutenção predial e residencial.
-        Apoio: Pizzaria Nono Ludovico, Ferragem Tua Casa, Colormix Tintas, Outdoor Equipamentos.
-    </p>
-    </div>
+
+
     </main>
-
-    <footer>
-        Site desenvolvido por Jeferson A. Vicari
-    </footer>
-    </body>
-
-
+    <footer>Site desenvolvido por Jeferson A. Vicari </footer>
+    
+</body>
 </html>
