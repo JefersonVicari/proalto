@@ -1,61 +1,286 @@
 @charset "UTF-8";
-body{
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(165, 162, 162);
+
+}
+
+section.menu{
     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    
+    background-color: black;
+}
+img#icone{
+    display: block;
     margin: auto;
-}
-
-
-main{
-margin:auto;
-max-width: 1000px;
-background-color: yellow;
-}
-
-main h1{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-}
-
-main p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
     
 }
-h2{
-    padding: 0px 10px;
+header>img:hover{
+    background-color: rgb(61, 60, 60);
 }
-li{
-    padding: 0px 10px;
+main{
+    
+    background-color: yellow;
+    height: 2500px;
+}
+    
+menu{
+    background-color: rgb(87, 86, 86);
+    display: none;
 }
 
-   
-nav {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 10px 60px ;
-        background-color: rgb(2, 2, 2);
-        border-radius: 10px;
-}
-    nav > a{
-        padding: 8px 80px;
-        text-decoration:nome;
-    }
-    nav a:hover{
-        background-color: yellow;
-        border-radius: 5px;
-        transition: 0.5s;
-        padding: 8px 80px;
-        
-    }
-
-
-    footer{
-        background-image: linear-gradient(to right, black,white);
-        color: white;
-        max-width: 1000px;
-        margin: auto;
-        font-family: Arial, Helvetica, sans-serif;
+    menu a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
         text-align: center;
     }
+
+    menu a:hover{
+        background-color: rgb(182, 181, 181);
+    }
+    section.home{
+        
+        background-image: url(../imagens/rapel1-2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    div.lar{
+        text-align: center;
+        font-size: large;
+        
+
+    }
+    section.container{
+        background-color: black;
+        height: 500px;    
+
+    }
+    div.box1{
+        display: block;
+        margin: auto;
+        
+        height: 500px;
+       background-color:white; 
+     }
+     div.box1>p{
+        text-align:justify;
+        padding: 20px;
+        text-indent: 30px;
+     }
+     div.box1>h1{
+        padding: 20px;
+     }
+
+     section.servicos{
+        height: 500px;
+        background-image: url(../imagens/rapel1-2.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        margin: auto;    
+     }
+     div.servicos1{
+        
+        text-align: justify;
+     }
+     div.servicos2{
+       
+     }
+     div#margem{  
+        padding: 20px;
+         }
+    div.servicos1>h1{  
+        padding: 20px;
+         }
+
+    /*
+    div.box2{
+        background-color: rgb(255, 0, 13);
+        width: 50px;
+        height: 50px;
+
+    }
+    div.box3{
+        background-color: rgb(8, 224, 44);
+        width: 50px;
+        height: 50px;
+    }
+    div.box4{
+        background-color: rgb(255, 0, 119);
+        width: 50px;
+        height: 50px;
+    }
+    */
+    section.fotos{
+        height: 500px;
+       background-color: rgb(243, 243, 248);
+       display:flex;
+       flex-direction: row;
+       justify-content:space-around;
+       align-items: center;
+
+    
+     }
+     div.fotos2{
+        width: 220px;
+        height: 200px;
+        background-image: url(../imagens/Foto2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px black;       
+     }
+     div.fotos3{
+            width: 220px;
+            height: 200px;
+            background-image: url(../imagens/Foto3.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px black;
+     }
+
+     section.parceiros{
+    
+
+        height: 500px;
+        background-image: url(../imagens/rapel1-2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    div#parc1{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.644);
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    
+    }
+    div#parc1 h1{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    div#parc1-1 {
+       
+        width: 350px;
+        height: 200px;
+        background-image: url(../imagens/Colormix2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+    div#parc2{
+        width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.644);
+    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    }
+    div#parc2-1 {
+       
+        width: 350px;
+        height: 200px;
+        background-image: url(../imagens/outdoor2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section.contato{
+    padding-left: 40px;
+        height: 250px;
+        
+        background-color: white;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    
+     }
+     div.contato1{
+        width: 250px;
+        height: 200px;
+        
+     }
+     div.contato2{
+        width: 250px;
+            height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     div#cont1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../imagens/logo-facebook.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     }
+     div#cont2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../imagens/logo-instagram.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     }
+     div#cont3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(../imagens/logowhats.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     }
+      
+       
+
+
+    
+   
+    footer{
+        text-align: center;
+    }
+    
+    
 

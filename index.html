@@ -4,256 +4,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Alto</title>
-    <Style>
-       
-       
-        body{
-            margin: 0px;
-            padding: 0px;
-            height: 3800px;
-            background-color: white;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        html{
-            scroll-behavior: smooth;
-        }
-        section.normal{
-            background-color: yellow;
-            height: 500px;
-            display: flex;
-            flex-direction: row;
-            justify-content:space-around;
-            align-items:center;
-            
-           
-        }
-        div.box1{
-            width: 700px;
-            height: 500px;
-            background-color: white;
-           
-            
-        }
-        div.box2{
-            width: 700px;
-            height: 500px;
-            background-image: url(imagens/rapel2.jpg);
-            background-size: cover;
-            
-        }
-        
-        div>p{
-            padding: 20px;
-            text-align: justify;
-        }
-        div>h1{
-            padding: 20px;
-        }
-       
-
-        section.normal2{
-            background-color: yellow;
-            text-align: center;
-            
-            padding: 10px;
-            
-        }
-       
-        section#img01{
-        background-image: url(imagens/rapel1-2.jpg);
-        background-size: cover;
-        }
-        section.imagem{
-            text-align: center;
-            background-attachment: fixed;
-            font-size: 40px;
-            
-        }   
-        section#img02{
-        background-image: url(imagens/rapel1-2.jpg);
-        background-size: cover;
-        } 
-        section#img03{
-        background-image: url(imagens/rapel1-2.jpg);
-        background-size: cover;
-        } 
-        section#img04{
-        background-image: url(imagens/rapel1-2.jpg);
-        background-size: cover;
-        }
-       
-        nav{
-            background-color: black;
-            overflow: hidden;
-            position: fixed;
-            width: 100vw;
-        }
-        div.logo{
-            float: left;
-            display: block;
-            padding: 14px 50px;
-        }
-        nav a{
-            color: white;
-            float: right;
-            display: block;
-            padding: 40px 30px;
-            padding-right: 100px;
-            font-size: large;
-            }
-            section.normal3{
-            background-color: yellow;
-            text-align: left;
-            padding: 10px;
-            }
-        section.normal3{
-            background-color: yellow;
-            text-align: center;
-            padding: 10px;
-            }
-        section.normalmidias{
-            text-align: center;
-        }
-        section.normalmidias img{
-            width: 80px;
-            padding: 20px;
-            border-radius: 50%;
-        }
-        
-
-        footer{
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            
-
-        }
-            
-    </Style>
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
+<body onresize="mudouTamanho()">
 
-<body>
-   
-<nav>
+    <header>
+<section class="menu">
+    <div id="menu1"><img src="imagens/logoantigopequeno2.png" alt=""></div>
+    <div id="menu2">Telefone para contato:(51)98291-8486</div>
+</section>
 
-    <div class="logo"><img src="imagens/logoantigopequeno2.png" alt=""></div>
-        <a href="#img04">Contato</a>
-        <a href="#img03">Parceiros</a>
-        <a href="#img02">Serviços</a>
-        <a href="#img01">Empresa</a>
-        
+
+<img id="icone" src="imagens/menu_FILL0_wght400_GRAD0_opsz48.png" onclick="clickMenu()" alt="">
+
+
+    <menu id="itens">
     
-</nav>
+    <div ><a href="#">Home</a></div>
+    <div ><a href="#container">Empresa</a></div>
+    <div ><a href="#servicos">Serviços</a></div>
+    <div ><a href="#parceiros">Parceiros</a></div>
+    <div ><a href="#contato">Contato</a></div>
+   
+    </menu>
+    </header>
+
 
     <main>
 
-        
-<section class="imagem" id="img01">
-    <br>
-    <br> 
-    <br>
-    <br>
-    <br>
-    <h1>MOVIDOS PELO COMPROMISSO DE<br>
-        CUIDAR DO SEU PATRIMÔNIO</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</section>
-
-
-
-    <section class="normal" >  
+        <section class="home">
+            <div class="lar">
+                <p>MOVIDOS PELO COMPROMISSO DE
+                    CUIDAR DO SEU PATRIMÔNIO</p>
+            </div>
+            
+        </section>
+               <Section class="container" id="container">
             <div class="box1">
                 <h1 >Quem somos</h1>
                 <p>
-                    Pro Alto é uma empresa direcionada em solucionar problemas em lugares de acesso difíceis, facilitando o alcance em determinadas áreas que uma pessoa não qualificada conseguirá realizar. <br>
-                    Dispensamos o uso de ferramentas de grande porte que podem causar danos e acidentes irrevercíveis a um colaborador. <br>
-                    Todos nossos colaboradores tem a qualificação necessária para poder realizar este tipo de serviço, sendo eles, supervisionados e acompanhados por um técnico de nível superior. <br>
+                    
+                    Pro Alto é uma empresa direcionada em solucionar problemas em lugares de acesso difíceis, facilitando o alcance em determinadas áreas que uma pessoa não qualificada conseguirá realizar.
+                    Dispensamos o uso de ferramentas de grande porte que podem causar danos e acidentes irrevercíveis a um colaborador.
+                    Todos nossos colaboradores tem a qualificação necessária para poder realizar este tipo de serviço, sendo eles, supervisionados e acompanhados por um técnico de nível superior.
                     Nosso material passa por cuidados específicos, constantes prolongando assim sua vida útil.
                 </p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur cumque quam. Vero dicta enim, laudantium error eum sunt voluptas corporis placeat, quia debitis reiciendis recusandae repudiandae! Quasi, saepe eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellat cum illum suscipit at nostrum, molestias assumenda ratione quam recusandae quibusdam placeat quae necessitatibus ipsum quod, unde veniam excepturi voluptas!Lorem ipsum dolor sit amet consectetur 
+                </P>
             </div>
+            <div class="box2"></div>
 
-            <div class="box2">
-              
-            </div>
+        </Section>
 
-            
-    </section>
-   
+        <section class="servicos" id="servicos">
+<div class="servicos1">
 
-
+<h1>Serviços</h1>
 
 
-<section class="imagem" id="img02">
-    <br>
-    <br>
-    <br>
-    <br>
-<h1>Serviços que realizamos</h1>
-<br>
-<br>
-<br>
-<br>
-
-</section>
-
-<section class="normal2" id="nor01">
-<img src="Fotos/Foto1.png" alt="">
-<img src="Fotos/Foto2.png" alt="">
-<img src="Fotos/Foto3.png" alt="">
-<img src="Fotos/Foto4.png" alt="">
-
-<img src="Fotos/Foto6.png" alt="">
-<img src="Fotos/Foto7.png" alt="">
-
-</section>
-
-<section class="imagem" id="img03">
-    <br>
-    <br>
-<h1>Parceiros</h1>
-<br>
-<br>
-<br>
-<br>
-</section>
-
-<section class="normal3" id="nor02">
-    <div><img src="Fotos/Foto5.png" alt=""></div>
-    <a href="https://www.outdoorequipamentos.com.br/" target="_blank">
-        <div><img src="imagens/outdoor.png" alt=""></div>
-    </a>
     
-    </section>
-    <section class="imagem" id="img04">
-        <br>
-        <br>
-    <h1>Mídias Sociais</h1>
+        
+            <div id="margem">
+                <li>Preparação e pinturas, e seus procedimentos técnicos.</li>
+                <li>Restauração de alvenarias.</li>
+                <li>Restauração de cerâmicas,pastilhas, pedras etc.</li>
+                <li>Restauração de materiais em madeiras.</li>
+                <li>Testes de som cavo e percussão.</li>
+                <li>Texturas, impermeabilizações e reformas de telhados, lages e de toda a estrutura que esteja com problemas de infiltração ou danificada.</li>
+                <li>Lavagem de estruturas com hidrojato de alta pressão.Limpeza de vidros. Etc...</li>
+                <li>Cuidamos de todas as partes de manutenção preventiva, e corretiva</li>
+            </div>
+        
+    
+
+    
+</div>
+<div class="servicos2">
+       
+</div>
+        </section>
+
+        <section class="fotos">
+            
+
+<div class="fotos2"></div>
+<div class="fotos3"></div>
+
+
+        </section>
+
+<Section class="parceiros" id="parceiros">
+
+
+    <div id="parc1">
+        
+        <a href="http://www.colormixtintas.com.br/" target="_blank">
+            <div id="parc1-1">
+            </div>
+        </a>
+    </div>
+    <div id="parc2">
+        
+        <a href="https://www.outdoorequipamentos.com.br/" target="_blank">
+            <div id="parc2-1">
+            </div>
+        </a>
+    </div>
+
+
+
+</Section>
+
+
+
+
+        <Section class="contato" id="contato">
+
+<div class="contato1">
+<br>
+    <br>
+    <h2>Horários de Atendimento:</h2>
     <br>
     <br>
     <br>
-    <br>
-    </section>
-    <section class="normalmidias" >
-        <a href="https://www.facebook.com/proaltoalpinismo" target="_blank"><img src="imagens/logo-facebook.jpg" alt=""></a>
-        <a href="https://www.instagram.com/proaltoalpinismo/" target="_blank"><img src="imagens/logo-instagram.jpg" alt=""></a>
-        <a href="https://wa.me/5551982918486" target="_blank"><img src="imagens/lowhats.jpg" alt=""></a>
+    <li>De segunda a Quinta: 12:00hr às 13:30hrs</li>
+</div>
 
+<div class="contato2">
+    <h2>Mídias Sociais</h2>
+   <a href="https://www.facebook.com/proaltoalpinismo" target="_blank">
+       <div id="cont1"></div>
+   </a>
+    <a href="https://www.instagram.com/proaltoalpinismo/" target="_blank">
+        <div id="cont2"></div>
+    </a>
+    <a href="https://wa.me/5551982918486" target="_blank">
+        <div id="cont3"></div>
+    </a>
+</div>
 
-    </section>
-
-
-
-
+        </Section>
+        
+        
 
     </main>
-    <footer>Site desenvolvido por Jeferson A. Vicari </footer>
-    
+
+    <script>
+function mudouTamanho(){
+if(window.innerWidth>=768){
+itens.style.display = "block"
+} else{
+    itens.style.display = "none"
+}
+}
+
+
+        function clickMenu(){
+            if (itens.style.display == "block"){
+                itens.style.display = "none"
+            }else{
+                itens.style.display = "block"
+            }
+        }  
+
+    </script>
+
+<footer>
+<em>Site desenvolvido por JAV</em>
+</footer>
 </body>
 </html>
